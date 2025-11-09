@@ -35,7 +35,7 @@ Clean, version-controlled Python environment with continuous integration (CI) fo
 1. **Data Profiling**
    - Verified dataset completeness — no missing values.
    - Reviewed column ranges for physical consistency across 19 variables.
-
+   - 
 2. **Data Cleaning**
    - Removed invalid values (e.g., negative irradiance).
    - Applied **Z-score (|Z| > 3)** to detect and remove outliers.
