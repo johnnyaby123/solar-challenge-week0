@@ -5,5 +5,4 @@ __pycache__/
 .Python
 venv/
 .env/
-*.csv
 .ipynb_checkpoints/
