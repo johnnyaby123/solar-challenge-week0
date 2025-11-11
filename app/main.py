@@ -11,9 +11,9 @@ st.write("Interactive visualization of solar irradiance metrics across Benin, Si
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    benin = pd.read_csv("data/benin_clean.csv")
-    sierra = pd.read_csv("data/sierraleone-bumbuna_clean.csv")
-    togo = pd.read_csv("data/togo-dapaong_qc_clean.csv")
+    benin = pd.read_csv("../data/benin_clean.csv")
+    sierra = pd.read_csv("../data/sierraleone-bumbuna_clean.csv")
+    togo = pd.read_csv("../data/togo-dapaong_qc_clean.csv")
     benin["Country"] = "Benin"
     sierra["Country"] = "Sierra Leone"
     togo["Country"] = "Togo"
