@@ -126,7 +126,47 @@ The analysis successfully established a regional ranking:
 2. 🥈 **Togo** — moderate and stable performance  
 3. 🥉 **Sierra Leone** — lower potential but still viable for adaptive solar systems  
 
-### 🧩 Bonus (Next Step)
-A Streamlit dashboard will be developed in `app/main.py` to visualize solar metrics interactively.
+## 💻 Bonus: Streamlit Interactive Dashboard  
+
+### 🎯 Objective  
+To build an interactive dashboard using **Streamlit** to visualize solar irradiance metrics (GHI, DNI, DHI) across the three countries — Benin, Sierra Leone, and Togo.
+
+### ⚙️ Features Implemented  
+- Sidebar country and metric selection  
+- Interactive bar chart and boxplot visualizations  
+- Dynamic summary statistics (mean, median, standard deviation)  
+- Cached data loading for faster performance using `@st.cache_data`  
+
+### 🧩 Folder Structure  
+
+app/
+├── main.py # main Streamlit app script
+└── utils.py # optional helper functions (if needed)
 
 
+### 🧠 Technical Notes  
+- Developed using **Streamlit**, **Pandas**, and **Matplotlib**.  
+- Replaced `st.bar_chart()` with Matplotlib plotting to fix `altair` compatibility error.  
+- Added a version pin in `requirements.txt`:
+
+
+altair<5
+
+- Compatible with Python 3.9+ and works with cleaned local CSVs in the `data/` folder.  
+
+### 🚀 How to Run Locally  
+1. Activate your virtual environment:
+ ```bash
+ source venv/Scripts/activate
+
+
+2. Run the dashboard:
+
+streamlit run app/main.py
+
+
+3. Open your browser at the URL shown in the terminal (usually http://localhost:8501).
+
+🏁 Outcome
+
+✅ A fully functional interactive dashboard that visualizes and compares solar irradiance across Benin, Sierra Leone, and Togo — providing an accessible, data-driven way to explore solar potential.
