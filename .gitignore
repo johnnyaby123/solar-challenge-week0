@@ -5,6 +5,4 @@ __pycache__/
 .Python
 venv/
 .env/
-data/
-*.csv
 .ipynb_checkpoints/
