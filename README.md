@@ -90,5 +90,43 @@ All three datasets are now ready for **Task 3 – Comparative Analysis and Regio
 ### ✅ Next Step  
 Proceed to **Task 3**, combining cleaned datasets to compare and rank regions using quantitative metrics and visualization-driven insights.
 
+---
+
+## 🌍 Task 3: Cross-Country Comparison
+
+### 🎯 Objective
+To synthesize the cleaned solar datasets from **Benin**, **Sierra Leone**, and **Togo** in order to compare their relative solar potential and highlight key regional differences.
+
+### 📂 Branch
+`compare-countries`
+
+### 📘 Notebook
+`notebooks/compare_countries.ipynb`
+
+### 🧠 Approach
+1. Loaded the cleaned datasets:
+   - `data/benin_clean.csv`
+   - `data/sierraleone_clean.csv`
+   - `data/togo_clean.csv`
+2. Computed **summary statistics** (mean, median, std) for GHI, DNI, and DHI.
+3. Created **boxplots** to visualize distribution of solar irradiance metrics per country.
+4. Performed a **one-way ANOVA test** on GHI values to check for statistically significant differences.
+5. Visualized **average GHI ranking** through a comparative bar chart.
+6. Documented insights and actionable recommendations in the final markdown summary.
+
+### 📊 Key Findings
+- **Benin** has the **highest mean GHI (237 W/m²)** — indicating the strongest solar potential.
+- **Togo** follows with a slightly lower but consistent GHI trend.
+- **Sierra Leone** shows **lower irradiance** likely due to cloudier conditions and higher humidity.
+- ANOVA confirmed **statistical significance (p < 0.05)** in GHI variation between countries.
+
+### ✅ Outcome
+The analysis successfully established a regional ranking:
+1. 🥇 **Benin** — highest solar irradiance potential  
+2. 🥈 **Togo** — moderate and stable performance  
+3. 🥉 **Sierra Leone** — lower potential but still viable for adaptive solar systems  
+
+### 🧩 Bonus (Next Step)
+A Streamlit dashboard will be developed in `app/main.py` to visualize solar metrics interactively.
 
 
