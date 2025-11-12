@@ -158,12 +158,13 @@ altair<5
 1. Activate your virtual environment:
  ```bash
  source venv/Scripts/activate
-
+```
 
 2. Run the dashboard:
 
+ ```bash
 streamlit run app/main.py
-
+```
 
 3. Open your browser at the URL shown in the terminal (usually http://localhost:8501).
 
