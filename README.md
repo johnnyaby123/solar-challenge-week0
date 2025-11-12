@@ -170,3 +170,35 @@ streamlit run app/main.py
 🏁 Outcome
 
 ✅ A fully functional interactive dashboard that visualizes and compares solar irradiance across Benin, Sierra Leone, and Togo — providing an accessible, data-driven way to explore solar potential.
+
+#### 🌐 Deployment
+Deployed via [Streamlit Community Cloud](https://solar-challenge-week0-tzssgmt5rvggvzyw9ptnbz.streamlit.app/).
+
+> **Live Demo:** [🔗 View Dashboard on Streamlit](https://solar-challenge-week0-tzssgmt5rvggvzyw9ptnbz.streamlit.app/)  
+
+
+#### 🖼 Dashboard Preview
+![Dashboard Screenshot](dashboard_screenshots/dashboard.png)
+
+---
+
+### 🧾 Final Report
+**Title:** *Discovering Africa’s Solar Potential: Insights from Benin, Sierra Leone, and Togo*  
+- Written in Medium-style format summarizing all three tasks.  
+- Includes visuals, methodology, and conclusions.  
+
+📄 **PDF Report:** [🔗 View Report on Google Drive](https://drive.google.com/file/d/1e5g4mXpOIkcpWnwlScmDna0WG4THaXUW/view?usp=sharing)  
+
+---
+
+### 🧩 Key Takeaways
+- Learned version control best practices with Git & GitHub.  
+- Built strong data cleaning and EDA foundation.  
+- Explored solar data patterns and environmental correlations.  
+- Created an interactive and deployable dashboard using Streamlit.
+
+---
+
+### 👨‍💻 Author
+**Yohannes Abayneh Lemma**  
+*10 Academy KAIM Cohort — Week 0 Project*
